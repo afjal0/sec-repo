@@ -1,5 +1,17 @@
+h1{
+    background-image: linear-gradient(orange,red);
+    font-size: 50px;
+    padding: 10px;
+    
+}
+h2{
+    font-size: 200px;
+}
+
+
 p{
     font-size: 100px;
    color: rgb(11, 253, 253);
    background-color: dimgrey;
+  
 }
