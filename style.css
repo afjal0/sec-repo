@@ -11,7 +11,7 @@ h1{
     
 }
 
-section{display: flex;
+.flex-container {display: flex;
     padding: 80px;
 
 }
@@ -20,7 +20,7 @@ section{display: flex;
 background-repeat: no-repeat;
 }
 .helf-width{
-    width: 50%;
+    width: 100%;
 }
 .helf-width img{
     width: 100%;
@@ -41,4 +41,32 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-position-x: right;
     size-adjust:2px;
+   
+}
+.footer{
+    background-image: url(img/exp-bg.png);
+    background-repeat:no-repeat ;
+    background-position: 30px;
+}
+.exp-dg{
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    
+}
+#orange{
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg, purple, tomato);
+        border-image-slice: 1;
+    }
+#blue{
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg, blue, cyan);
+        border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
